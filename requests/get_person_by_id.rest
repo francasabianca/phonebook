@@ -1,0 +1,12 @@
+// has to return 200 and a source
+GET http://localhost:3001/api/persons/1
+
+###
+
+// has to return 200 and a source
+GET http://localhost:3001/api/persons/2
+
+###
+
+// has to return 404 not found
+GET http://localhost:3001/api/persons/55

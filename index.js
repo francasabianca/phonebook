@@ -2,6 +2,7 @@ const express = require('express')
 const morgan = require('morgan')
 const app = express()
 
+app.use(express.static('build'))
 app.use(express.json())
 //app.use(morgan(':method :url :status :response-time ms :body'))
 //data returned in get method
